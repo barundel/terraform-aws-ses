@@ -1,0 +1,26 @@
+[
+  {
+    "name": "postfix",
+    "image": "${image_url}",
+    "cpu": 128,
+    "memory": 256,
+    "memoryReservation": 64,
+    "essential": true,
+    "portMappings": [
+      {
+        "containerPort": 25
+      }
+    ],
+    "dockerLabels": {
+      "Name": "postfix"
+    },
+    "environment": [],
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "${cw_logs_group}",
+        "awslogs-region": "eu-west-1"
+      }
+    }
+  }
+]
