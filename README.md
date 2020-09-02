@@ -13,6 +13,10 @@ module "email" {
 ````
 
 <!--- BEGIN_TF_DOCS --->
+## Requirements
+
+No requirements.
+
 ## Providers
 
 | Name | Version |
@@ -22,7 +26,7 @@ module "email" {
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:-----:|
+|------|-------------|------|---------|:--------:|
 | email\_identitys | The email addresses to verify in SES. | `list` | n/a | yes |
 
 ## Outputs
@@ -31,4 +35,5 @@ module "email" {
 |------|-------------|
 | email\_identity\_arn | The ARN of the email identity created. |
 | test | Testing terraform outputs possible issue with #23073 |
+
 <!--- END_TF_DOCS --->
