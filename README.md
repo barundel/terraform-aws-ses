@@ -13,5 +13,22 @@ module "email" {
 ````
 
 <!--- BEGIN_TF_DOCS --->
+## Providers
 
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:-----:|
+| email\_identitys | The email addresses to verify in SES. | `list` | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| email\_identity\_arn | The ARN of the email identity created. |
+| test | Testing terraform outputs possible issue with #23073 |
 <!--- END_TF_DOCS --->
