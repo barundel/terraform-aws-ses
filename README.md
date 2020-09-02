@@ -1,3 +1,8 @@
+# terraform-aws-ses
+> This is a terraform module for creating Amazon Web Services Simple Email Service resources. 
+
+Pushing up 0.11 to work on new interation. 
+
 data.tf
 identity_policy.json
 inputs.tf
