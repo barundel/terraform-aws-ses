@@ -1,5 +1,12 @@
 All notable changes to this terraform will be documented in this file.
 
+## [1.0.2](https://github.com/barundel/terraform-aws-ses/compare/v1.0.1...v1.0.2) (2020-09-02)
+
+
+### Bug Fixes
+
+* adding in version info ([e5d209b](https://github.com/barundel/terraform-aws-ses/commit/e5d209bc5bdb9ea8479c7a7d2fe1a708ff7e031c))
+
 ## [1.0.1](https://github.com/barundel/terraform-aws-ses/compare/v1.0.0...v1.0.1) (2020-09-02)
 
 
