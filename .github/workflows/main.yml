@@ -34,6 +34,7 @@ jobs:
         uses: cycjimmy/semantic-release-action@v2
         id: semantic   # Need an `id` for output variables
         with:
+          semantic_version: 16
           branch: master
           extra_plugins: |
             @semantic-release/git
