@@ -15,13 +15,16 @@ module "email" {
 <!--- BEGIN_TF_DOCS --->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| terraform | >= 0.13.1 |
+| aws | >= 3.4.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| aws | n/a |
+| aws | >= 3.4.0 |
 
 ## Inputs
 
