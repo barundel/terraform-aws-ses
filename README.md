@@ -1,6 +1,17 @@
-# terraform-aws-ses
+# terraform-aws-ses [![Build Status](https://github.com/barundel/terraform-aws-ses/workflows/release/badge.svg)](https://github.com/barundel/terraform-aws-ses/actions)
 > This is a terraform module for creating Amazon Web Services Simple Email Service resources. 
 
+## Table of Contents
+
+- [Maintenance](#maintenance)
+- [Getting Started](#getting-started)
+- [License](#license)
+
+## Maintenance
+
+This project is maintained [Ben](https://github.com/barundel), anyone is welcome to contribute.
+
+## Examples 
 
 #### aws_ses_email_identity
 This adds an email address identity into SES. You can call it independently or pass in a list as in this example: 
