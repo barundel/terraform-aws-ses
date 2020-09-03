@@ -4,7 +4,8 @@
 ## Table of Contents
 
 - [Maintenance](#maintenance)
-- [Getting Started](#getting-started)
+- [Examples](#examples)
+    - [aws_ses_email_identity](#aws_ses_email_identity)
 - [License](#license)
 
 ## Maintenance
