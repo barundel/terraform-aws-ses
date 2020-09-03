@@ -4,6 +4,6 @@ output "email_identity_arn" {
 }
 
 // Testing terraform outputs possible issue with #23073
-output "test" {
+output "test_2" {
   value = "123"
 }
