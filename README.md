@@ -49,7 +49,7 @@ module "email" {
 | Name | Description |
 |------|-------------|
 | email\_identity\_arn | The ARN of the email identity created. |
-| test | Testing terraform outputs possible issue with #23073 |
+| test\_2 | Testing terraform outputs possible issue with #23073 |
 
 <!--- END_TF_DOCS --->
 
